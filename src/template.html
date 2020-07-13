@@ -12,13 +12,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
-
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Shane Sharareh | Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
@@ -27,8 +27,7 @@
     <!-- Required librarys -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       ScrollReveal({ reset: false });
@@ -36,22 +35,48 @@
 
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
-    <div id="top"></div>
+    <div id="top">
+      <nav>
+                <ul class="nav-list">
+                  <li><a href="">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+
+                </ul>
+              </nav>
+    </div>
 
     <!-- **** Hero Section **** -->
     <div id="hero" class="jumbotron">
       <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+        <h1 class="hero-title" class="load-hidden" class="header-override">
+          Hello, my name is <span class="text-color-main">Shane Sharareh</span>
           <br />
-          I'm the Unknown Developer.
+          I'm an emerging Software Engineer.
         </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        <div class ="languagesIcons">
+          <ul class ="language-list">
+            <li>
+              <img src="assets/programming-language-java.png">
+              <img src="assets/programming-language-c++.png">
+              <img src="assets/programming-language-csharp.png">
+              <img src="assets/programming-language-kotlin.png">
+</li>
+              <li>
+              <img src="assets/programming-language-javascript.png">
+              <img src="assets/programming-language-html5.jpg">
+              <img src="assets/programming-language-css3.jpg">
+              </li>
+          </ul>
+        </div>
+        <p class="hero-cta" class="load-hidden" class="override-center-button">
+          <a class="cta-btn cta-btn--hero" href="#about">View Portfolio</a>
         </p>
       </div>
     </div>
@@ -78,17 +103,14 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
-              </p>
+                Hello, my name is Shane. I’m passionate about programming and app development because people rely so heavily on technology, and a well-designed program can make a significantly positive impact on people’s lives. Whether the app is for productivity or entertainment.
+</p>
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
-              </p>
+                I graduated in 2017 with a B.S. in Computer Science and have also completed a web & mobile apps development program held at SDSU for continuing education. For several years, I actively provided technical support at my church to enable the delivery of seamless experiences for the congregation.
+                </p>
+                <p class="about-wrapper__info-text">
+                  Other than programming, I have a passion for music and fitness, my hobbies include: playing the guitar, going on hikes and working out regularly at my gym
+                  </p>
               <span class="d-flex mt-3">
                 <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
                   View Resume
@@ -113,20 +135,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">On The Rocks</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    OnTheRocks is a cocktail recipe finder that finds cocktail drinks by making api calls to thecocktaildb.com/api.php, and parsing through the ingredients and instructions. Additionally you can add ingredients to your shopping cart and bookmark drinks that stood out to you
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://shanesharareh.github.io/OnTheRocks/">
+                  See Demo
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/OnTheRocks">
                   Source Code
                 </a>
               </div>
@@ -135,7 +153,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/ontherocksimage.png" />
                   </div>
                 </a>
               </div>
@@ -147,20 +165,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">7 Minute Workout App</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This is a 7 minute workout app using Kotlin! The app runs through a series of 12 workouts within 7 minutes, allowing 30 seconds per workout. In addition the app also has a BMI calculator
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+              <!--  <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                </a>-->
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/7minuteWorkoutApp">
                   Source Code
                 </a>
               </div>
@@ -169,7 +183,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/7minuteWorkoutApp.png" />
                   </div>
                 </a>
               </div>
