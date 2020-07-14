@@ -1,4 +1,4 @@
-# SIMPLEFOLIO
+# simplefolio
 
 ## Description
 Simplefolio is a portfolio template I forked from **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev). I personalized it to make it a portfolio of my own to showcase my projects
