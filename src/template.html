@@ -11,296 +11,397 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-    <!-- Put here your site title -->
-    <title>Shane Sharareh | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+<head>
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <!-- Put here your site title -->
+  <title>Shane Sharareh | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[username], [name], skill" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Your name here] | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: false
+    });
+  </script>
 
-  </head>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top">
-      <nav>
-                <ul class="nav-list">
-                  <li><a href="">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact">Contact</a></li>
+</head>
 
-                </ul>
-              </nav>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </nav>
+  </div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden" class="header-override">
+        Hello, my name is <span class="text-color-main">Shane Sharareh</span>
+        <br />
+        I'm an emerging Software Engineer.
+      </h1>
+      <div class="languagesIcons">
+        <ul class="language-list">
+          <li>
+            <img src="assets/programming-language-java.png">
+            <img src="assets/programming-language-c++.png">
+            <img src="assets/programming-language-csharp.png">
+            <img src="assets/programming-language-kotlin.png">
+          </li>
+          <li>
+            <img src="assets/programming-language-javascript.png">
+            <img src="assets/programming-language-html5.jpg">
+            <img src="assets/programming-language-css3.jpg">
+          </li>
+        </ul>
+      </div>
+      <p class="hero-cta" class="load-hidden" class="override-center-button">
+        <a class="cta-btn cta-btn--hero" href="#about">View Portfolio</a>
+      </p>
     </div>
+  </div>
+  <!-- /END Hero Section -->
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden" class="header-override">
-          Hello, my name is <span class="text-color-main">Shane Sharareh</span>
-          <br />
-          I'm an emerging Software Engineer.
-        </h1>
-        <div class ="languagesIcons">
-          <ul class ="language-list">
-            <li>
-              <img src="assets/programming-language-java.png">
-              <img src="assets/programming-language-c++.png">
-              <img src="assets/programming-language-csharp.png">
-              <img src="assets/programming-language-kotlin.png">
-</li>
-              <li>
-              <img src="assets/programming-language-javascript.png">
-              <img src="assets/programming-language-html5.jpg">
-              <img src="assets/programming-language-css3.jpg">
-              </li>
-          </ul>
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="assets/profile.jpg" alt="Profile Image" />
+          </div>
         </div>
-        <p class="hero-cta" class="load-hidden" class="override-center-button">
-          <a class="cta-btn cta-btn--hero" href="#about">View Portfolio</a>
-        </p>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hello, my name is Shane. I’m passionate about programming and app development because people rely so heavily on technology, and a well-designed program can make a significantly positive impact on people’s lives. Whether the app is for
+              productivity or entertainment.
+            </p>
+            <p class="about-wrapper__info-text">
+              I graduated in 2017 with a B.S. in Computer Science and have also completed a web & mobile apps development program held at SDSU for continuing education. For several years, I actively provided technical support at my church to enable
+              the delivery of seamless experiences for the congregation.
+            </p>
+            <p class="about-wrapper__info-text">
+              Other than programming, I have a passion for music and fitness, my hobbies include: playing the guitar, going on hikes and working out regularly at my gym
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="Resume.pdf">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">On The Rocks</h3>
+              <div>
+                <p class="mb-4">
+                  On The Rocks is a cocktail recipe finder that finds cocktail drinks by making api calls to thecocktaildb.com/api.php, and parsing through the ingredients and instructions. Additionally you can add ingredients to your shopping cart and
+                  bookmark drinks that stood out to you
+                </p>
+                <p>
+                <b>Skills:</b>
+                </p>
+                <p>
+                  ⚡️ JavaScript ⚡️ HTML5 ⚡️ CSS3
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://shanesharareh.github.io/OnTheRocks/">
+                See Demo
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/OnTheRocks">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Hello, my name is Shane. I’m passionate about programming and app development because people rely so heavily on technology, and a well-designed program can make a significantly positive impact on people’s lives. Whether the app is for productivity or entertainment.
-</p>
-              <p class="about-wrapper__info-text">
-                I graduated in 2017 with a B.S. in Computer Science and have also completed a web & mobile apps development program held at SDSU for continuing education. For several years, I actively provided technical support at my church to enable the delivery of seamless experiences for the congregation.
-                </p>
-                <p class="about-wrapper__info-text">
-                  Other than programming, I have a passion for music and fitness, my hobbies include: playing the guitar, going on hikes and working out regularly at my gym
-                  </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="assets/ontherocks.png" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+        <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">On The Rocks</h3>
-                <div>
-                  <p class="mb-4">
-                    OnTheRocks is a cocktail recipe finder that finds cocktail drinks by making api calls to thecocktaildb.com/api.php, and parsing through the ingredients and instructions. Additionally you can add ingredients to your shopping cart and bookmark drinks that stood out to you
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://shanesharareh.github.io/OnTheRocks/">
-                  See Demo
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/OnTheRocks">
-                  Source Code
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">MySpot</h3>
+              <div>
+                <p class="mb-4">
+                  MySpot is a location saver app, which allows users to add their current location or search for their favorite locations via the Places API, to save and visit in the future.
+                </p>
+                <p>
+                <b>Skills:</b>
+                </p>
+                <p>
+                  ⚡️Java ⚡️Android ⚡️SQL
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="assets/ontherocksimage.png" />
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/OnTheRocks">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">7 Minute Workout App</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a 7 minute workout app using Kotlin! The app runs through a series of 12 workouts within 7 minutes, allowing 30 seconds per workout. In addition the app also has a BMI calculator
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="assets/myspot.png" />
                 </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">7 Minute Workout App</h3>
+              <div>
+                <p class="mb-4">
+                  This is a 7 minute workout app using Kotlin! The app runs through a series of 12 workouts within 7 minutes, allowing 30 seconds per workout. In addition the app also has a BMI calculator
+                </p>
+                <p>
+                <b>Skills:</b>
+                </p>
+                <p>
+                ⚡️Kotlin ⚡️Android
+                </p>
+              </div>
               <!--  <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
                 </a>-->
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/7minuteWorkoutApp">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/7minuteWorkoutApp">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="assets/seven-minute-workoutapp.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
         </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+        <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            [Put your call to action here]
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Pig Game</h3>
+              <div>
+                <p class="mb-4">
+                  Pig is a dice game where you must roll a 2 through 6, each number being accumulated for the current the player's score.
+                  If your score reaches to 100 before the other player, you win the game. However, if your die lands on a 0, you lose all of your points</p>
+                  <p>You are given an option to hold your turn and score and pass the die to the other player until they either pass it back or lose. </p>
+                  <p>
+                  <b>Skills:</b>
+                  </p>
+                  <p>
+                  ⚡️Kotlin ⚡️Android
+                  </p>
+              </div>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/pig">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="assets/pig-game.png" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
+        <!-- /END Project -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Quiz Blasters</h3>
+              <div>
+                <p class="mb-4">
+                  Inspired by Space Invaders, Quiz Blasters allows the user to Quiz themseles in a fun away.
+                  The player is first asked to create a quizset, only to find themselves in a space invader-like game where the player is prompted with a question and
+                  must shoot the invader holding the correct answer.
+                </p>
+                <p>
+                <b>Skills:</b>
+                </p>
+                <p>
+                ⚡️C# ⚡️Unity
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/Quiz-Blasters">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="assets/quiz-blasters.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Payroll</h3>
+              <div>
+                <p class="mb-4">
+                  A payroll simutation implemented using linked lists in Java
+                </p>
+                <b>Skills:</b>
+                </p>
+                <p>
+                ⚡️Java
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ShaneSharareh/payroll-lab">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="assets/payroll.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          Please feel free to reach out to me either through email, or social media.</p>
+          <p class="contact-wrapper__text">I'd love to get to know more about you 🤝☕</p>
+        
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:shane.s.sharareh@gmail.com">Lets Connect!</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://github.com/ShaneSharareh" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
         </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
+
+        <a href="www.linkedin.com/in/shanesharareh" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+
+        <a href="https://twitter.com/ShararehShane" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+
+
+        <a href="https://medium.com/@shane.s.sharareh" target="_blank">
+          <i class="fa fa-medium fa-inverse"></i>
+        </a>
+
+        <a href="https://codepen.io/ShaneSh777" target="_blank">
+          <i class="fa fa-codepen fa-inverse"></i>
+        </a>
+
+
         </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2020 - Original template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+        </p>
+        <p class="footer__text">
+           Personalized by <a href="https://github.com/ShaneSharareh" target="_blank">Shane Sharareh</a>
+          </p>
+
+
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
