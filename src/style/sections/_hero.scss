@@ -65,6 +65,14 @@
 }
 
 /** header personalization **/
+li {
+  display: inline-block;
+  list-style-type: none;
+  &:hover {
+    border-right-style: solid;
+    border-color: #50BFE6;
+  }
+}
 @media all and (min-device-width: 500px) {
 nav {
   #burger-icon {
@@ -77,14 +85,7 @@ nav {
 		padding-left: 0;
 		text-align: right;
 	}
-	li {
-		display: inline-block;
-		list-style-type: none;
-		&:hover {
-			border-right-style: solid;
-			border-color: #50BFE6;
-		}
-	}
+
 	justify-content: space-between;
 	a {
 		padding: 10px 15px;
@@ -137,6 +138,8 @@ ul {
     right: 0;
     top: 0;
     margin-right:10px;
+    font-size: 20px;
+    width: 80px;
 
   }
 
