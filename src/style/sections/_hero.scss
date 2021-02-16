@@ -25,6 +25,8 @@
     padding: 0rem $default-font-size;
   }
 
+  
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
@@ -160,7 +162,8 @@ ul {
   .language-list {
     display: none;
   }
-
+ 
+  
 }
 
 .language-list {
@@ -172,10 +175,17 @@ ul {
 			margin: 1rem 0;
 			text-align: center;
 		}
+    >img:hover{
+       position: relative;
+       top: -5px;
+    }
 		display: inline-block;
 		list-style-type: none;
 		margin: 1rem;
 	}
+ > li:hover {
+    border:none;
+  }
 }
 #hero {
 	.hero-cta {
